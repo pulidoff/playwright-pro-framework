@@ -1,0 +1,30 @@
+{
+  "name": "playwright-pro-framework",
+  "version": "1.0.0",
+  "description": "Professional E2E, API, visual regression and accessibility testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:visual": "playwright test tests/visual",
+    "test:a11y": "playwright test tests/a11y",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "api",
+    "accessibility",
+    "visual-regression"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.3",
+    "@playwright/test": "^1.60.0",
+    "axe-playwright": "^2.2.2",
+    "dotenv": "^16.6.1"
+  }
+}

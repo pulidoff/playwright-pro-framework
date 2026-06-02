@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"require\\('./playwright.config.js'\\); console.log\\('config OK'\\)\")",
+      "Bash(node -e \"require\\('./fixtures/apiFixtures.js'\\); console.log\\('fixtures OK'\\)\")",
+      "Bash(node -e \"require\\('./pageobjects/POManager.js'\\); console.log\\('POManager OK'\\)\")",
+      "Bash(node -e \"require\\('./serviceobjects/SOManager.js'\\); console.log\\('SOManager OK'\\)\")",
+      "Bash(node -e \"require\\('./utils/a11yHelper.js'\\); console.log\\('a11yHelper OK'\\)\")"
+    ]
+  }
+}
